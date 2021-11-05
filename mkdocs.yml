@@ -1,15 +1,15 @@
 # Fichier de configuration du site à personnaliser
 
 # Informations du site 
-site_name: Bloc Notes Python
-site_description: Fichiers Carnets NoteBook Etudiés en SNT
-site_author: "Delphine NUNEZ " 
-copyright: Document partagé par <a href="https://github.com/dnunez-gua" target="_blank">Delphine NUNEZ </a> &copy; 2021 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a> <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
-site_url: https://dnunez-gua.github.io/NBloc/ #  modifier au format https://votrePseudoGitHub.github.io/votreDepot/
+site_name: Base MkDocs Material
+site_description: Exemple de site de base pour MkDocs avec le thème Material à personaliser
+site_author: "Eric MADEC" 
+copyright: Document partagé par <a href="https://github.com/ericECmorlaix" target="_blank">Eric MADEC</a> &copy; 2021 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a> <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
+site_url: https://ericecmorlaix.github.io/base_mkdocs_material/ #  modifier au format https://votrePseudoGitHub.github.io/votreDepot/
 
 # Dépot du projet 
-repo_name: 'NBLOC' 
-repo_url: https://dnunez-gua.github.io/NBloc/# Ajoute l'icone et le lien vers le dépot GitHub en haut à droite pour afficher et permettre d'éditer le fichier source
+repo_name: 'base_mkdocs_material' 
+repo_url: https://github.com/ericECmorlaix/base_mkdocs_material # Ajoute l'icone et le lien vers le dépot GitHub en haut à droite pour afficher et permettre d'éditer le fichier source
 edit_uri: tree/main/docs/
 
 
@@ -19,7 +19,7 @@ docs_dir: docs
 # Menu de navigation
 nav: 
     - La page d'accueil : index.md
-    - Base de Python : debuter-Python.ipynb
+    - Un notebook jupyter : Notebook.ipynb
 
 
     # Référencer vos autres pages ci-dessus...
@@ -27,7 +27,7 @@ nav:
 
 # Définition du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/
 theme:
-    name: Python
+    name: material
     custom_dir: overrides
     font: false  # RGPD ; pas de fonte Google
     language: fr # français
@@ -103,10 +103,10 @@ plugins:
 extra:
   social: # A personaliser...
     - icon: fontawesome/solid/paper-plane
-      link: mailto:delphine.nunez@ecmorlaix.fr
+      link: mailto:eric.madec@ecmorlaix.fr
       name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
     - icon: fontawesome/brands/github
-      link: https://dnunez-gua.github.io/NBloc/
+      link: https://github.com/ericECmorlaix/base_mkdocs_material
       name: dépôt github
     - icon: fontawesome/solid/university
       link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
