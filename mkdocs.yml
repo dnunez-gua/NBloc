@@ -19,7 +19,11 @@ docs_dir: docs
 # Menu de navigation
 nav: 
     - La page d'accueil : index.md
-    - Débuter en Pytjon : debuter-Python.ipynb
+    - Débuter en Python : debuter-Python.ipynb
+    - Les conditions : conditions.ipynb
+    - la boucle FOR : boucleFOR.ipynb
+    - les fonctions : fonctions.ipynb
+    - les boucles WHILE : boucleWHILE.ipynb
 
 
     # Référencer vos autres pages ci-dessus...
