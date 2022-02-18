@@ -24,7 +24,7 @@ nav:
     - la boucle FOR : boucleFOR.ipynb
     - les fonctions : fonctions.ipynb
     - les boucles WHILE : boucleWHILE.ipynb
-    - les chaines de caractères : NB-chaineDeCaracteres.ipynb
+    - les chaines de caractères : ChaineDeCaracteres.ipynb
 
 
     # Référencer vos autres pages ci-dessus...
